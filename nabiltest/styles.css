@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+}
+.spin {
+  width: 70px;
+  height: 70px;
+  background-color: gray;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.titre-spin{
+  margin: 0;
+  position: absolute;
+  top: 25%;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.titre-box{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.titre {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+a{
+  text-decoration:none;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  font-size: x-large;
+}
+.menu-link {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 5px;
+}
+.menu-link:hover{
+  background-color: rgb(113, 113, 113);
+  color: rgb(39, 39, 39);
+}
+.arriere-plan{
+  /* The image used */
+  background-image: url("assets/backtest.webp");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.boite-conteneur{
+  margin-top: 100px;
+  margin-bottom: 500px;
+}
+.boite{
+  margin-left: 300px;
+  margin-bottom: 150px;
+  margin-right: 300px;
+  padding: 1rem;
+  background-color: black;
+}
+.boite-titre{
+  text-align: center;
+  padding: 2rem;
+}
+.boite-texte{
+  text-align: justify;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+.image-html{
+  float: right;
+  margin: 0px 0px 15px 15px;
+}
+.image-css{
+  float: left;
+  margin: 15px 15px 0px 0px;
+}
