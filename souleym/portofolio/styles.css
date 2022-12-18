@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.titre-box{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
+
+.titre-box-1{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.titre{
+    text-decoration: none;
+}
+.menu{
+    display: flex;
+    font-size: x-large;
+    justify-content: center;
+}
+
+.link{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.link:hover{
+    border: 3px gold double;
+}
+
+.arriere-plan{
+    background-image: url("./images/final\ bankai\ ichigo.webp");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.boite-texte{
+    color: white;
+    text-align: justify;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+}

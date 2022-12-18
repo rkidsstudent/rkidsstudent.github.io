@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.spin {
+  width: 70px;
+  height: 70px;
+  background-color: gray;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.titre-box{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.titre {
+  text-decoration: none;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  font-size: x-large;
+}
+.menu-link {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 5px;
+}
+.menu-link:hover{
+  border: 3px black solid;
+  background-color: rgb(113, 113, 113);
+}
+.arriere-plan {
+  background-image: url("./images/backround.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.boite{
+  background-color: white;
+  margin: 25%;
+  padding: 1rem
+}
+.boite-titre{
+  text-align: center;
+  padding: 2rem;
+}
+.boite-texte{
+  text-align: justify;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+}
+.image {
+  float: right;
+  margin: 15px;
+}

@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titre-box{
+   background-color: black;
+   color: rgb(255, 255, 255);
+   text-align: center; 
+   padding: 20px;
+}
+.titre{
+    text-decoration:none ;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(173, 255, 148);
+    font-size: large;
+}
+
+.menu-link{
+    color: rgb(53, 145, 0);
+    text-decoration:none;
+    padding: 5px;
+    
+}
+.arriere-plan{
+    background-image: url("./image.jpg"); 
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.boite{
+    background-color: white;
+    margin-bottom: 25%;
+    padding: 3%;
+}
+.boite-texte{
+    text-align: justify;
+    margin: 2%;
+    margin: 10%;
+    margin: 1%;
+
+}
